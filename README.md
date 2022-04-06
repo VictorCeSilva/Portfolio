@@ -10,7 +10,7 @@ Este projeto foi feito para fazer uma breve apresentação das minhsa habilidade
 
 ## Imagem do Projeto
 
-![alt text](web.gif)
+![alt text](web/web.gif)
 
 ```
 Sugestões e conselhos são sempre bem-vindos!
