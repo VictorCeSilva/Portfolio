@@ -1,0 +1,76 @@
+
+:root{
+    --body-fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.botoes{
+    max-width: 60em;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+    flex-wrap:wrap;
+
+}
+.botoes a{
+    display: inline-block;
+    text-align:center;
+    background-color:#1a1713;
+    margin-right: 17px;
+    text-decoration:none;
+    color:#ffff;
+    font-family: var(--body-fonts);
+    font-size: 15px;
+    padding: 20px 0px;
+    width: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.btn-social{
+    transition: all 0.2s linear 0s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.btn-social::before{
+    transition: all 0.2s linear 0s;
+   
+}
+.btn-social:hover{
+    text-indent: -9999px;
+    background-color: #fff;
+
+}
+.btn-social::before{
+    top:0;
+    text-indent: 0px;
+}
+
+.linkedin {
+    border: 2px solid rgb(21, 70, 233);
+}
+.linkedin:hover{
+    box-shadow: 1px 1px 20px rgb(21, 70, 233);
+    background-image: url(/imgs/icons8-linkedin-circundado.gif);
+}
+
+.git {
+    border: 2px solid rgb(253, 253, 253);
+}
+.git:hover{
+    box-shadow: 1px 1px 20px rgb(255, 255, 255);
+    background-image: url(/imgs/icons8-github.gif);
+}
+.curriculum {
+    border: 2px solid rgb(230, 233, 21);
+}
+.curriculum:hover{
+    box-shadow: 1px 1px 20px rgb(230, 233, 21);
+    background-image: url(/imgs/icons8-baixar.gif);
+
+
+}
+

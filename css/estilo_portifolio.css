@@ -1,0 +1,108 @@
+/* ZERAR CSS DA PAGINA*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+:root{
+    --primary-color: #212121;
+    --secundary-color: #1a1713;
+    --third-color: #2b2a29;
+    --fourth-color: #000000;
+    --fifth-color: #1a1917;
+    --sixtin-color: rgb(255, 251, 251);
+    --body-fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    max-width: 1900px;
+}
+.profile{
+    z-index: 1;
+    color: var(--sixtin-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.profile h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    color:  rgba(253, 15, 7, 0.959);
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.925) .1em  0.1em 0.2em;
+
+}
+
+.profile-text{
+    font-size: 25px;
+    padding: .5rem;
+    font-family: var(--body-fonts); 
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.582) .1em  0.1em 0.2em;
+}
+
+.apresentacao{
+    display: flex;
+    background: var(--fourth-color);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 20px -20px 40px 10px rgb(12, 5, 5);
+    flex-direction: column;
+}
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800em;
+}
+#sobre p{
+    text-align: justify;
+    padding-top:1.5rem;
+    color: #fff;
+    font-family: var(--body-fonts);
+    font-size: 1em;
+    max-width: 30em;
+    margin-left: 6em;
+    line-height: 1.2rem;
+    
+}
+.title-section{
+    font-family: 'Press Start 2P', cursive;
+    color:  rgba(253, 15, 7, 0.959);
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+.apresentacao img{
+    max-width: 25vw;
+    border-radius: 5%;
+}
+.contrast{
+    color: #0084ff;
+    font-size: 1.6em;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #ff0f0f 0%, #294db1 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+  }
+
+
+@media (max-width: 768px){
+    .apresentacao img{
+        display:none;
+    }
+    #sobre p{
+        text-align: center;
+        margin-left: 0em;
+    }
+}
