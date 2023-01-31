@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
 
-.home {
-    background-image: url(/imgs/fundo.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 
-    z-index: 1;
+.home {
+    background: url(/imgs/fundo.jpeg) no-repeat center center;
     margin-top: -150px;
     display: flex;
     align-items: center;
@@ -24,9 +20,6 @@ li{
     position: relative;
     text-align: center;
     font-weight: bold;
-    font-weight: bold;
-
-
 }
 
 
@@ -54,7 +47,6 @@ li:hover::before{
 }
 
 #header {
-
     box-sizing: border-box;
     height: 150px;
     padding: 1rem 9rem;

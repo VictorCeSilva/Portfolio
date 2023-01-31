@@ -9,9 +9,20 @@ A responsividade foi inserida com intuito de facilitar a visualização por disp
 <a href="https://github.com/VictorCeSilva/Portifolio/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/VictorCeSilva/Portifolio">
   </a>
+
+
+<img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/VictorCeSilva/Portifolio/stargazers">
+   
+  </a>
+
+<a href="https://rocketseat.com.br">
+    <img alt="made by Victor Costa" src="https://img.shields.io/badge/made%20by-VictorCosta-%237519C1">
+</a>
+
 </p>
 <h4 align="center"> 
-	🚧  HTML, CSS e JavaScript 🚀 Em construção...  🚧
+	🚧  Portfolio 🚀 Em construção...  🚧
 </h4>
 
 ## Screenshots 	📷 
@@ -22,8 +33,8 @@ A responsividade foi inserida com intuito de facilitar a visualização por disp
   <img alt="Gif" title="#Gif do Portfolio" src="gif_portfolio.gif" />
 </h1>
 
-## Autor
----
+### Autor
+
 
 <p align="center">
 Feito por Victor Costa👋🏽 Entre em contato! 
