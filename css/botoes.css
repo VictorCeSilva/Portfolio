@@ -18,7 +18,7 @@
 .botoes a{
     display: inline-block;
     text-align:center;
-    background-color:#1a1713;
+    background-color:#1f1f1f;
     margin-right: 17px;
     text-decoration:none;
     color:#ffff;
@@ -50,25 +50,28 @@
 }
 
 .linkedin {
-    border: 2px solid rgb(21, 70, 233);
+    border: 2px solid #326e9d;
 }
 .linkedin:hover{
-    box-shadow: 1px 1px 20px rgb(21, 70, 233);
+    box-shadow: 1px 1px 20px #326e9d;
     background-image: url(/imgs/icons8-linkedin-circundado.gif);
 }
 
 .git {
-    border: 2px solid rgb(253, 253, 253);
+    border: 2px solid #1f1f1f;
+   
 }
 .git:hover{
-    box-shadow: 1px 1px 20px rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px #1f1f1f;
     background-image: url(/imgs/icons8-github.gif);
 }
 .curriculum {
-    border: 2px solid rgb(230, 233, 21);
+    border: 2px solid #f67c1d;
 }
 .curriculum:hover{
-    box-shadow: 1px 1px 20px rgb(230, 233, 21);
+    box-shadow: 1px 1px 20px #f67c1d;
+    border: 2px solid #f67c1d;
+
     background-image: url(/imgs/icons8-baixar.gif);
 }
 

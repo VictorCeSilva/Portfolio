@@ -1,5 +1,5 @@
 Mudanças a serem realizadas.
-- retirar DIV da apresentação que n tem nada
-- ajustar o SOBRE, ta desconfigurado em dispositivos mobiles
-- ajustas o SECTION dos projetos
-- Melhorar resolução em telas 4K (HOME E FOTO)
+- retirar DIV da apresentação que n tem nada (FEITO)
+- ajustar o SOBRE, ta desconfigurado em dispositivos mobiles (FEITO)
+- ajustas o SECTION dos projetos (FEITO)
+- Melhorar resolução em telas 4K (HOME E FOTO) (FEITO)
