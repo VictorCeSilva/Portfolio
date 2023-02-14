@@ -20,7 +20,6 @@ html {
     scroll-behavior: smooth;
 
 }
-
 .section {
     box-sizing: border-box;
     height: 100vh;
@@ -143,7 +142,19 @@ html {
     background-color: #464749;
     width: 300px;
     height: 250px;
+    transition: .35s;
+    cursor:pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.projetos:hover > :not(:hover) {
+    opacity: .4;
+    transform: scale(0.9);
+    filter: blur(2px);
+}
+
 
 .footer {
     background-color: #f0f0f0;
@@ -166,7 +177,6 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     font-size: 15px;
-   /* color: #ffffffdc;*/
     gap: 15px;
     font-size: 30px;
 }
