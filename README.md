@@ -30,9 +30,7 @@ A responsividade foi inserida com intuito de facilitar a visualização por disp
 
   Screenshot da tela inicial e demonstração da responsividade do Projeto!
 <h1 align="center">
-  <img alt="Home" title="#Home de Portfolio" src="print-home.png" />
-  	> Print da Tela Home do portfolio.
-  	
+  <img alt="Home" title="#Home de Portfolio" src="print-home.png" />  	
   <img alt="Gif" title="#Gif do Portfolio" src="gif_portfolio.gif" />
 </h1>
 
