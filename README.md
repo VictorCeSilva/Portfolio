@@ -1,3 +1,4 @@
+
 # 💻 Sobre o projeto
 
 O projeto é destinado ao desenvolvimento do meu Portfolio profissional, 
@@ -30,12 +31,9 @@ A responsividade foi inserida com intuito de facilitar a visualização por disp
   Screenshot da tela inicial e demonstração da responsividade do Projeto!
 <h1 align="center">
   <img alt="Home" title="#Home de Portfolio" src="print-home.png" />
-  ![Print da Home do Portfolio]
-  
+  	> Print da Tela Home do portfolio.
+  	
   <img alt="Gif" title="#Gif do Portfolio" src="gif_portfolio.gif" />
-  ![Demonstração do Portfolio se comportando em dispositivo mobile]
-
-
 </h1>
 
 ### Autor
@@ -45,3 +43,5 @@ A responsividade foi inserida com intuito de facilitar a visualização por disp
 Feito por Victor Costa👋🏽 Entre em contato! 
 
   </p>
+
+
