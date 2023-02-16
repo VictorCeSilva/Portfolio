@@ -54,7 +54,7 @@
 }
 .linkedin:hover{
     box-shadow: 1px 1px 20px #326e9d;
-    background-image: url(/imgs/icons8-linkedin-circundado.gif);
+    background-image: url(../imgs/icons8-linkedin-circundado.gif);
 }
 
 .git {
@@ -63,7 +63,7 @@
 }
 .git:hover{
     box-shadow: 1px 1px 20px #1f1f1f;
-    background-image: url(/imgs/icons8-github.gif);
+    background-image: url(../imgs/icons8-github.gif);
 }
 .curriculum {
     border: 2px solid #f67c1d;
@@ -72,6 +72,6 @@
     box-shadow: 1px 1px 20px #f67c1d;
     border: 2px solid #f67c1d;
 
-    background-image: url(/imgs/icons8-baixar.gif);
+    background-image: url(../imgs/icons8-baixar.gif);
 }
 
