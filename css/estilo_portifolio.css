@@ -3,12 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
 
 :root {
-    --primary-color: #212121;
-    --secundary-color: #1a1713;
-    --third-color: #2b2a29;
-    --fourth-color: #000000;
-    --fifth-color: #1a1917;
-    --sixtin-color: rgb(255, 251, 251);
+    --primary-color: #000000;
+    --secundary-color: #f0f0f0;
     /*
             PALETA DE CORES USADAS
             https://coolors.co/palette/f67c1d-ee5c17-333333-464749-f68933-f0f0f0-326e9d-9abcd5-1f1f1f-fd510d
@@ -30,7 +26,7 @@ html {
 
 .profile {
     z-index: 1;
-    color: var(--sixtin-color);
+    color: var(--secundary-color);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -57,12 +53,12 @@ html {
 
 .section-apresentacao {
     display: flex;
-    background: var(--fourth-color);
+    background: var(--primary-color);
     text-align: center;
     align-items: center;
     padding: 20px;
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: var(--secundary-color);
 
 }
 
@@ -78,7 +74,7 @@ html {
     font: 1em var(--body-fonts);
     text-align: justify;
     padding-top: 2rem;
-    color:#000000;
+    color: var(--primary-color);
     max-width: 30em;
     margin-left: 6em;
     line-height: 1.2rem;
@@ -99,12 +95,6 @@ section:nth-child(2n) .title-section/* seleciona os title section impares*/{
 .section-projetos .title-section {
     margin: 2em 0px 1.5em;
 }
-
-.section-apresentacao img {
-    max-width: 20vw;
-    border-radius: 5%;
-}
-
 .contrast {
     color: #195285;
     font-size: 1.6em;
@@ -114,7 +104,7 @@ section:nth-child(2n) .title-section/* seleciona os title section impares*/{
 /* barra de rolagem*/
 ::-webkit-scrollbar {
     width: 5px;
-    background-color: #000000;
+    background-color: var(--primary-color);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -165,7 +155,7 @@ section:nth-child(2n) .title-section/* seleciona os title section impares*/{
 
 
 .footer {
-    background-color: #f0f0f0;
+    background-color: var(--secundary-color);
     color: #1F1F1F;
     font-weight:bold;
     text-align: center;
@@ -191,7 +181,7 @@ section:nth-child(2n) .title-section/* seleciona os title section impares*/{
 
 
 .footer-icon-social .fa-github-alt:hover{
-    color:rgb(0, 0, 0);
+    color: var(--primary-color);
 }
 .footer-icon-social .fa-linkedin-in:hover{
     color:rgb(12, 117, 255);
