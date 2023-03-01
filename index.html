@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta description="description" content="Presentation by Front End developer Victor. 
+    Separated in topics: about the developer, mentioning some characteristics 
+    and providing intuitive buttons; topic of the projects created and contact buttons.">
+
     <link src="https://kit.fontawesome.com/a076d05399.js">
     <link href="css/botoes.css" link rel="stylesheet">
     <link href="css/reset.css" link rel="stylesheet">
@@ -27,32 +31,34 @@
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a href="#home">Home</a> </li>
-                <li><a href="#sobre">Sobre</a> </li>
-                <li><a href="#projetos">Projetos</a> </li>
+                <li><a href="#home"      role="menuitem">Home</a> </li>
+                <li ><a href="#sobre"    role="menuitem" >Sobre</a> </li>
+                <li ><a href="#projetos" role="menuitem" >Projetos</a> </li>
+                <li ><a href="#contato"  role="menuitem" >Contatos</a> </li>
+
 
             </ul>
         </nav>
     </header>
     <main>
-        <section class="home section" id="home">
-            <div class="profile">
+        <section class="home section" id="home" aria-label="Seção Home">
+            <div class="profile" role="text">
                 <span class="profile-text"> Prazer </span>
                 <h1> Victor Gabriel</h1>
                 <span class="profile-text"> Desenvolvedor Front-End</span>
             </div>
         </section>
 
-        <section class="section-apresentacao section">
+        <section class="section-apresentacao section" aria-label="Seção de Apresetação">
             <div id="sobre">
 
                 <div id="foto-sobre">
-                    <img src="imgs/foto-pessoal.jpg">
+                    <img src="imgs/foto-pessoal.webp" alt="Foto do Desenvolvedor do Portfolio">
                 </div>
 
-                <div id="texto-sobre">
-                    <span class="title-section"> Sobre</span>
-                    <p>
+                <div id="texto-sobre" tabindex="0">
+                    <span class="title-section">Sobre Mim</span>
+                    <p role="text" >
 
                         Olá, meu nome é <span class="contrast">Victor Gabriel! </span><br>
                         Sou Técnico em Informática, formado em Análise e Desenvolvimento
@@ -71,49 +77,52 @@
 
             <div class="botoes">
 
-                <a class="btn-social linkedin" href="https://www.linkedin.com/in/victor-costa-e-silva/" title="Linkedin"
-                    target="_blank">Linkedin</a>
-                <a class="btn-social git " href="https://github.com/VictorCeSilva" title="GitHub" target="_blank">
+                <a class="btn-social linkedin" href="https://www.linkedin.com/in/victor-costa-e-silva/" title="Visitar Linkedin"
+                    target="_blank" role="button" >Linkedin</a>
+                <a class="btn-social git " href="https://github.com/VictorCeSilva" title="Visitar GitHub" target="_blank" role="button">
                     GitHub</a>
-                <a class="btn-social curriculum" href="Documents/Currículo Victor Gabriel Costa e Silva.pdf" title="Curriculum" target="_blank"
-                    download="Curriculum Victor Gabriel"> Curriculum</a>
+                <a class="btn-social curriculum" href="Documents/Currículo Victor Gabriel Costa e Silva.pdf" title="Baixar Curriculum" target="_blank"
+                    download="Curriculum Victor Gabriel" role="button"> Curriculum</a>
 
             </div>
         </section>
 
-        <section class="section section-projetos" id="projetos">
+        <section class="section section-projetos" id="projetos" aria-label="Seção de Projetos Desenvolvidos">
 
             <span class="title-section"> Projetos</span>
 
             <div class="projetos">
 
-                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;"> 
+                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;" aria-label="Projeto 01"> 
                 Em breve                    
                 </a>
 
-                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;"> Em Breve</a>
-                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;"> Em Breve</a>
+                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;" aria-label="Projeto 02"> Em Breve</a>
+                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;" aria-label="Projeto 03"> Em Breve</a>
 
-                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;"> Em Breve</a>
+                <a class="card-projeto" href="notfound.html" title="Nome_Projeto" target="_blank" style="border: #fff .5px solid;" aria-label="Projeto 04"> Em Breve</a>
                
             </div>
         </section>
         
         
-<footer class="footer">
-    <div class="footer-icon-social">
+<footer class="footer" aria-label="Rodapé  com Contatos">
+    <div class="footer-icon-social" id="contato">
 
         <a href="https://github.com/VictorCeSilva" >
-            <i class="fa-brands fa-github-alt" title="Visitar GitHub"></i>
+            <i class="fa-brands fa-github-alt" title="Visitar GitHub"  aria-label="Botão para GitHub"></i>
         </a>
         
-        <a href="https://www.linkedin.com/in/victor-costa-e-silva/"> <i class="fa-brands fa-linkedin-in" title="Visitar Linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/victor-costa-e-silva/"> 
+            <i class="fa-brands fa-linkedin-in" title="Visitar Linkedin"  aria-label="Botão para Linkedin"></i>
+        </a>
        
-        <a href="https://wa.me/5518996815630?text=Olá,%20Victor!%20Vi%20seu%20portfolio,%20e%20gostaria%20de%20saber%20mais%20sobre%20você!%20" title="Mandar Mensagem por Whastapp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.me/5518996815630?text=Olá,%20Victor!%20Vi%20seu%20portfolio,%20e%20gostaria%20de%20saber%20mais%20sobre%20você!%20" title="Mandar Mensagem por Whastapp"aria-label="Botão para Mandar Mensagem no Whatsapp do Desenvolvedor"><i class="fa-brands fa-whatsapp"></i>
+        </a>
         
 
     </div>
-    <p style="margin-bottom:25px;">&#169 Copyright- Desenvolvido por Victor Gabriel - 2022/2023</p>
+    <p style="margin-bottom:25px;">&#169 Copyright- Desenvolvido por Victor Gabriel - 2022 - 2023</p>
 </footer>
 
 
