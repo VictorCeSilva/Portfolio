@@ -1,10 +1,5 @@
-
 # 💻 Sobre o projeto
 
-O projeto é destinado ao desenvolvimento do meu Portfolio profissional, 
-contendo atualização de código e design. O intuito é demonstrar minhas  habilidades inseridas no portfolio e no meus projetos desenvolvidos.
-A responsividade foi inserida com intuito de facilitar a visualização por dispositivos Mobiles.
----
 <p align="center">
 
 <a href="https://github.com/VictorCeSilva/Portifolio/commits/master">
@@ -16,30 +11,29 @@ A responsividade foi inserida com intuito de facilitar a visualização por disp
    <a href="https://github.com/VictorCeSilva/Portifolio/stargazers">
    
   </a>
-
-<a href="https://rocketseat.com.br">
+  <a href="https://rocketseat.com.br">
     <img alt="made by Victor Costa" src="https://img.shields.io/badge/made%20by-VictorCosta-%237519C1">
 </a>
 
-</p>
-<h4 align="center"> 
-	🚧  Portfolio 🚀 Em construção...  🚧
-</h4>
 
-## Screenshots 	📷 
+Projeto desenvolvido para apresentar e exercitar os conhecimentos adquiridos de Front-End, está presente no projeto as seguintes funcionalidades:
 
-  Screenshot da tela inicial e demonstração da responsividade do Projeto!
-<h1 align="center">
-  <img alt="Home" title="#Home de Portfolio" src="print-home.png" />  	
-  <img alt="Gif" title="#Gif do Portfolio" src="gif_portfolio.gif" />
-</h1>
 
-### Autor
+- [x] Botões animados de Interação redirecionando para Linkedin e GitHub;
+- [x] Botão Animado para download do curriculo;
+- [x] Acessibilidade para pessoas com deficiência visual e cegos; 
+- [x] Melhor combinação de cores para visualização;
+- [x] Resposividade para dispositivos.
 
+## Demonstração 📷 
 
 <p align="center">
-Feito por Victor Costa👋🏽 Entre em contato! 
+  <img width="460" height="500" src="gifs/gif_portfolio.gif">
+</p>
 
-  </p>
 
+## Autores
+
+Desenvolvido por [@VictorCeS](https://github.com/VictorCeSilva)
+👋🏽 Entre em contato! 
 
