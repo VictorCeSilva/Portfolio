@@ -28,7 +28,7 @@ Projeto desenvolvido para apresentar e exercitar os conhecimentos adquiridos de 
 ## Demonstração 📷 
 
 <p align="center">
-  <img width="460" height="500" src="gifs/gif_portfolio.gif">
+  <img width="800" height="500" src="gifs/gif_portfolio.gif">
 </p>
 
 
