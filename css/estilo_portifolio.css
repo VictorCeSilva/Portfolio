@@ -18,7 +18,8 @@ html {
 }
 .section {
     box-sizing: border-box;
-    height: 100vh;
+    min-height: 100vh;
+    height:auto;
     max-width: 4000px;
     box-shadow: 0.4px 0px 27.1px #333333;
 }
@@ -118,8 +119,7 @@ section:nth-child(2n) .title-section/* seleciona os title section impares*/{
     align-items: center;
     flex-direction: column;
     background-color: #000000e3;
-    min-height: 100vh;
-    height:auto;
+
 
 }
 
