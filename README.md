@@ -31,7 +31,7 @@ Projeto desenvolvido para apresentar e exercitar os conhecimentos adquiridos de 
   <img width="800" height="500" src="gifs/gif_portfolio.gif">
 </p>
 
-##GitHub Pages
+## GitHub Pages
 Link para Website: https://victorcesilva.github.io/Portfolio/
 
 ## Autores
