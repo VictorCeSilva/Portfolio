@@ -66,12 +66,12 @@
     background-image: url("../imgs/icons8-github.gif");
 }
 .curriculum {
-    border: 2px solid #f67c1d;
+    border: 2px solid #057705;
 }
 .curriculum:hover{
-    box-shadow: 1px 1px 20px #f67c1d;
-    border: 2px solid #f67c1d;
-
+    box-shadow: 1px 1px 20px #057705;
+    border: 2px solid #057705;
     background-image: url("../imgs/icons8-baixar.gif");
+    background-size: 35px;
 }
 
