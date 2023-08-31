@@ -149,12 +149,25 @@ section:nth-child(2n) .title-section/* seleciona os title section impares*/{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 .projetos:hover > :not(:hover) {
     opacity: .4;
     transform: scale(0.9);
     filter: blur(2px);
+    
+
+}
+.card-projeto svg{
+    width:40px;
+}
+.language{
+    background-color: #0000004f;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    gap: 0;
+    
 }
 
 
